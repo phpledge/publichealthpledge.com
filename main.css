@@ -3,10 +3,14 @@ header {
     z-index: 10;
 }
 
-.navbar-brand span {
-    font-size: 40px;
-    color: #006778;
-}
+    .navbar-brand span {
+        font-size: 40px;
+        color: #006778;
+    }
+
+    #cta-add-your-name {
+        margin-right: 2em;
+    }
 
 main {
     margin-top: 2em;
@@ -16,3 +20,16 @@ footer {
     margin-top: 2em;
     margin-bottom: 1em;
 }
+
+    footer {
+        text-align: center;
+    }
+
+    footer #footer-links a {
+        padding: 0 1em;
+        white-space: nowrap;
+    }
+
+    footer #footer-links a span {
+        padding-left: 0.5em;
+    }
