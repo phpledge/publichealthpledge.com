@@ -1,0 +1,18 @@
+header {
+    box-shadow: 0px 0px 1em #333333;
+    z-index: 10;
+}
+
+.navbar-brand span {
+    font-size: 40px;
+    color: #006778;
+}
+
+main {
+    margin-top: 2em;
+}
+
+footer {
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
