@@ -16,6 +16,11 @@ main {
     margin-top: 2em;
 }
 
+    a.btn span,
+    footer #footer-links a span {
+        padding-left: 0.5em;
+    }
+
 footer {
     margin-top: 2em;
     margin-bottom: 1em;
@@ -28,8 +33,4 @@ footer {
     footer #footer-links a {
         padding: 0 1em;
         white-space: nowrap;
-    }
-
-    footer #footer-links a span {
-        padding-left: 0.5em;
     }
