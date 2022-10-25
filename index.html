@@ -16,8 +16,9 @@
 
 <body class="bg-light">
     <header class="navbar navbar-expand flex-column flex-md-row bg-white sticky-top bd-navbar">
-        <a class="navbar-brand mr-0 mr-md-2" href="/" title="The Public Health Pledge #PHPledge">
-            <span class="fa-solid fa-circle-plus"></span>
+        <a class="navbar-brand mr-0 mr-md-2" href="/">
+            <span class="fa-solid fa-circle-plus" aria-hidden="true"></span>
+            <span class="sr-only">The Public Health Pledge #PHPledge</span>
         </a>
         <nav class="navbar-nav-scroll">
             <ul class="navbar-nav bd-navbar-nav flex-row" id="nav">
@@ -25,13 +26,15 @@
             </ul>
         </nav>
         <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex" id="social">
-            <li class="nav-item"><a class="nav-link btn btn-primary" href="https://forms.gle/CuMEJ4NoQzqoamnB9" id="cta-add-your-name"><em>Add your name</em> <span class="fa-solid fa-pen-nib"></span></a></li>
-            <li class="nav-item"><a class="nav-link social-icon icon-twitter" href="https://twitter.com/PHPledge" title="@PHPledge on Twitter, opens in a new window"><span class="fab fa-twitter"></span></a></li>
-            <li class="nav-item"><a class="nav-link social-icon icon-envelope" href="mailto:phpledge@googlegroups.com" title="Email phpledge@googlegroups.com"><span class="fa-solid fa-envelope"></span></a></li>
+            <li class="nav-item"><a class="nav-link btn btn-primary" href="https://forms.gle/CuMEJ4NoQzqoamnB9" id="cta-add-your-name"><em>Add your name</em> <span class="fa-solid fa-pen-nib" aria-hidden="true"></span></a></li>
+            <li class="nav-item"><a class="nav-link social-icon icon-twitter" href="https://twitter.com/PHPledge"><span class="fab fa-twitter" aria-hidden="true"></span><span class="sr-only">@PHPledge on Twitter, opens in a new window</span></a></li>
+            <li class="nav-item"><a class="nav-link social-icon icon-envelope" href="mailto:phpledge@googlegroups.com"><span class="fa-solid fa-envelope" aria-hidden="true"></span><span class="sr-only">Email phpledge@googlegroups.com</span></a></li>
         </ul>
     </header>
 
     <main class="container">
+        <h1>The Public Health Pledge Page</h1>
+        <h2 class="sr-only">Background</h2>
         <p class="lead">We are committing to safer and more inclusive events. You can too.</p>
 
         <p>The onset of the COVID-19 pandemic changed the world forever, including event and community organizing, and the climate crisis brings with it the likelihood of more pandemics.</p>
@@ -42,7 +45,7 @@
         
         <p>While organizers have worked hard to navigate the pandemic, the reality is that our collective practice around Health and Safety is inconsistent, and falling into atrophy as seen in current events.</p>
         
-        <p>In the 2010s, many people took a <a href="https://geekfeminism.fandom.com/wiki/CoC_Pledge" target="_blank" title="Geek Feminism entry on the Code of Conduct pledge, opens in a new window">Code of Conduct (CoC) pledge</a> (<a href="https://www.ashedryden.com/cocpledge-select-tweets" target="_blank" title="#CoCPledge select tweets on Ashe Dryden's blog, opens in a new window">#CoCPledge</a>) to make events more safe and inclusive. Thanks to that and the work of dedicated community members, it became commonplace to have a CoC, we now know what makes a “good” CoC, there are templates to work from, and even experts who consult and train. Our events are better for that.</p>
+        <p>In the 2010s, many people took a <a href="https://geekfeminism.fandom.com/wiki/CoC_Pledge" target="_blank"><span class="sr-only">Geek Feminism entry on the Code of Conduct pledge </span>Code of Conduct (CoC) pledge <img src="assets/new-win.png" alt="Opens in a new window"></a> (<a href="https://www.ashedryden.com/cocpledge-select-tweets" target="_blank">#CoCPledge <span class="sr-hidden">select tweets on Ashe Dryden's blog </span> <img src="assets/new-win.png" alt="Opens in a new window"></a>) to make events more safe and inclusive. Thanks to that and the work of dedicated community members, it became commonplace to have a CoC, we now know what makes a “good” CoC, there are templates to work from, and even experts who consult and train. Our events are better for that.</p>
         
         <p>Today, we have a choice. We can either fall back on the bare minimum required by local regulations, and in so doing subject our community to devastating health impacts while calcifying the very inequities we’ve been working to resolve.</p>
         
@@ -52,7 +55,7 @@
         
         <div class="card" id="the-pledge">
             <div class="card-header">
-                <h1 class="display-4">The Public Health Pledge</h1>
+                <h2 class="display-4">The Public Health Pledge</h2>
             </div>
             <div class="card-body">
                 <p>I am committed to diversity and inclusion, including people with disabilities, chronic illness, and caregivers, therefore I pledge to only participate in or organize events that have robust Health and Safety policies.</p>
@@ -65,11 +68,11 @@
                     <li>The event’s policy includes active measures designed to minimize the number of participants who are infected with transmissible diseases like COVID-19, as well as mitigate transmission between participants.</li>
                 </ol>
 
-                <a class="btn btn-link" href="https://forms.gle/CuMEJ4NoQzqoamnB9"><em>Add your name</em> <span class="fa-solid fa-pen-nib"></span></a>
+                <a class="btn btn-link" href="https://forms.gle/CuMEJ4NoQzqoamnB9"><em>Add your name</em> <span class="fa-solid fa-pen-nib" aria-hidden="true"></span></a>
             </div>
         </div>
 
-        <h1 class="lead">How to make events more safe and inclusive</h1>
+        <h2 class="lead">How to make events more safe and inclusive</h2>
 
         <p>There is no one size fits all solution that covers events small and large, public and private, nonprofit and for-profit. However, there is a suite of tools well established in public health.</p>
 
@@ -77,7 +80,7 @@
         
         <p>However, this page would be incomplete without an overview of the types of active measures event organizers can take.</p>
 
-        <h2 class="lead">Minimize the number of participants who are infected with COVID-19</h2>
+        <h3 class="lead">Minimize the number of participants who are infected with COVID-19</h3>
         <ul>
             <li>Require vaccines, including boosters</li>
             <li>Require negative test results</li>
@@ -86,7 +89,7 @@
             <li>Alternative modes of participation</li>
         </ul>
 
-        <h2 class="lead">Mitigate transmission between participants</h2>
+        <h3 class="lead">Mitigate transmission between participants</h3>
         <ul>
             <li>Mandate masking indoors, and outdoors when not physically distanced</li>
             <li>Manage indoor air quality with ventilation and air purification</li>
@@ -95,9 +98,9 @@
 
         <p>If you’d like to be informed about the launch of our Organizer Guide, or participate in the discussions to improve on it, please follow <a href="https://twitter.com/PHPledge">@PHPledge</a> on Twitter.</p>
 
-        <h1 class="display-4">Signatories</h1>
+        <h2 class="display-4">Signatories</h2>
 
-        <a href="https://forms.gle/CuMEJ4NoQzqoamnB9"><em>Add your name</em> <span class="fa-solid fa-pen-nib"></span></a>
+        <a href="https://forms.gle/CuMEJ4NoQzqoamnB9"><em>Add your name</em> <span class="fa-solid fa-pen-nib" aria-hidden="true"></span></a>
 
         <ul class="list-unstyled">
             <li><a href="https://twitter.com/joshsimmons">Joshua R. Simmons</a>, Foundations Advocate, former Chair of Open Source Initiative</li>
@@ -117,14 +120,6 @@
             <li><a href="https://incl.ca/">Nicolas Steenhout</a>, Accessibility Consultant, CAPS member</li>
             <li><a href="https://twitter.com/taylor_atx">Taylor Barnett</a>, Staff Developer Advocate, former Co-chair of API Specifications Conference</li>
             <li><a href="https://daisy.wtf">Daisy Leigh Brenecki</a>, Conference Director, PyCon AU 2020 and 2023</li>
-            <li><a href="https://www.communi-tea.io/">Monica Ayhens-Madon, </a>Independent Community Facilitator</li>
-            <li><a href="https://twitter.com/sdmouton">Shaun Mouton</a>, Friendgineer, Organizer</li>
-            <li><a href="https://twitter.com/cczona">Carina C. Zona</a>, Developer advocate, CallbackWomen founder, @CoCpledge account maintainer</li>
-            <li><a href="https://twitter.com/larsmb">Lars Marowsky-Brée</a>, Distinguished Engineer</li>
-            <li><a href="https://twitter.com/mattstratton">Matty Stratton</a>, Global Organizer, DevOpsDays</li>
-            <li>Alexander Dietrich</li>
-            <li>Joan Liu, Product Manager</li>
-            <li><a href="https://vmbrasseur.com">VM Brasseur</a>, corporate strategist, open source & technical leader, author, speaker</li>
         </ul>
 
     </main>
@@ -132,10 +127,10 @@
     <footer class="container-fluid">
 
                 <p id="footer-links">
-                    <a href="https://forms.gle/CuMEJ4NoQzqoamnB9"><em>Add your name</em> <span class="fa-solid fa-pen-nib"></span></a>
-                    <a class="social-icon icon-twitter" href="https://twitter.com/PHPledge">Find @PHPledge on Twitter <span class="fab fa-twitter"></span></a>
-                    <a class="social-icon icon-twitter" href="https://twitter.com/search?q=%23PHPledge%20OR%20%40PHPledge&src=typed_query">Search #PHPledge on Twitter <span class="fa-solid fa-magnifying-glass"></span></a>
-                    <a class="social-icon icon-envelope" href="mailto:phpledge@googlegroups.com" title="Email phpledge@googlegroups.com">Email <span class="fa-solid fa-envelope"></span></a>
+                    <a href="https://forms.gle/CuMEJ4NoQzqoamnB9"><em>Add your name</em> <span class="fa-solid fa-pen-nib" aria-hidden="true"></span></a>
+                    <a class="social-icon icon-twitter" href="https://twitter.com/PHPledge">Find @PHPledge on Twitter <span class="fab fa-twitter" aria-hidden="true"></span></a>
+                    <a class="social-icon icon-twitter" href="https://twitter.com/search?q=%23PHPledge%20OR%20%40PHPledge&src=typed_query">Search #PHPledge on Twitter <span class="fa-solid fa-magnifying-glass" aria-hidden="true"></span></a>
+                    <a class="social-icon icon-envelope" href="mailto:phpledge@googlegroups.com">Email <span class="fa-solid fa-envelope" aria-hidden="true"></span><span class="sr-only">Email phpledge@googlegroups.com</span></a>
                 </p>
 
                 <p>
