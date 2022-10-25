@@ -21,6 +21,10 @@ main {
         padding-left: 0.5em;
     }
 
+    #the-pledge {
+        margin-bottom: 1em;
+    }
+
 footer {
     margin-top: 2em;
     margin-bottom: 1em;
