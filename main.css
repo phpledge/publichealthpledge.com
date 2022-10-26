@@ -9,6 +9,10 @@ header {
     z-index: 10;
 }
 
+    .navbar-brand {
+        line-height: 40px;
+    }
+
     .navbar-brand span {
         font-size: 40px;
         color: #006778;
