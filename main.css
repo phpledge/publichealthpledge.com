@@ -1,4 +1,5 @@
-body a {
+body a,
+body a.btn.btn-link {
     text-decoration: underline;
     color: #000099;
 }
