@@ -35,6 +35,15 @@ main {
         margin-bottom: 1em;
     }
 
+    #logos {
+        text-align: center;
+    }
+
+    #logos img {
+        max-height: 250px;
+        max-width: 250px;
+    }
+
 footer {
     margin-top: 2em;
     margin-bottom: 1em;
