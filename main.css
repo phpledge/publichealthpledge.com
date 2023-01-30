@@ -68,3 +68,7 @@ sr-only {
     position: absolute;
     width: 1px
 }
+
+h2 span.material-symbols-sharp {
+    font-size: 3.5rem;
+}
